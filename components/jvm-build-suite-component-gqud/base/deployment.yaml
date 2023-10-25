@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-gqud
     spec:
       containers:
-      - image: quay.io/qijing/jvm-build-ntsz-tenant/jvm-build-suite-application-aqdm/jvm-build-suite-component-gqud@sha256:cc396072b85c018f49c271457376e8a935183d3b9066ebe4bc085d3896e84c3c
+      - image: quay.io/qijing/jvm-build-ntsz-tenant/jvm-build-suite-application-aqdm/jvm-build-suite-component-gqud@sha256:dda58cbeb74b1e7c87dc1e094a4d0fe034304b1f8ecb6523b16f102962a2459b
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
